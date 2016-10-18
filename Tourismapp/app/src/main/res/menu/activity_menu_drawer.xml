@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_busqueda"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Preferencias de Búsqueda" />
+        <item
+            android:id="@+id/nav_historial"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Historial lugares visitados" />
+        <item
+            android:id="@+id/nav_favorito"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Favoritos" />
+        <item
+            android:id="@+id/nav_comentarios"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Mis Comentarios" />
+        <item
+            android:id="@+id/nav_configuracion"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Configuración" />
+        <item
+            android:id="@+id/nav_cerrar"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Cerrar Sesión" />
+        <item
+            android:id="@+id/nav_soporte"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Soporte" />
+
+    </group>
+
+    <item android:title="vacio">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
